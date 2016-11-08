@@ -12,7 +12,7 @@ public class SumTest {
     //Expected result: 4
     //Actual result: 4
     public void testSumPositive(){
-        AriphmeticOperations myTest = new AriphmeticOperations();
+        Calculator myTest = new Calculator();
         int sum = myTest.sum(2,2);
         assertEquals(4,sum);
         System.out.println("Positive training has been passed '#1: 2+2=4'");
@@ -22,7 +22,7 @@ public class SumTest {
     //Expected result: 4
     //Actual result: 5
     public void testSumNegative(){
-        AriphmeticOperations myTest = new AriphmeticOperations();
+        Calculator myTest = new Calculator();
 
         Assert.assertTrue(4!=myTest.sum(3,2));
         System.out.println("Negative training has been passed '#1: 2+3=5'");
@@ -32,7 +32,7 @@ public class SumTest {
     //Expected result: 0
     //Actual result: 2
     public void testSumNegative2() {
-        AriphmeticOperations myTest = new AriphmeticOperations();
+        Calculator myTest = new Calculator();
 
         Assert.assertTrue(0 != myTest.sum(3, 2));
         System.out.println("Negative training has been passed '#2: 2+0=2'");

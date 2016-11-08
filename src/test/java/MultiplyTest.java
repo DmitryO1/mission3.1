@@ -10,7 +10,7 @@ public class MultiplyTest {
     //Expected result: 25
     //Actual result: 25
     public void testSubtrPositive() {
-        AriphmeticOperations multiply = new AriphmeticOperations();
+        Calculator multiply = new Calculator();
         int result = multiply.multiply(5, 5);
         Assert.assertTrue(25 == result);
         System.out.println("Positive training has been passed '#1: 5*5=25");
@@ -21,7 +21,7 @@ public class MultiplyTest {
     //Expected result: 0
     //Actual result: 0
     public void testSubtrPositive1() {
-        AriphmeticOperations multiply = new AriphmeticOperations();
+        Calculator multiply = new Calculator();
         int result = multiply.multiply(5, 0);
         Assert.assertTrue(0 == result);
         System.out.println("Positive training has been passed '#2: 5*0=0");
@@ -32,7 +32,7 @@ public class MultiplyTest {
     //Expected result: 25
     //Actual result: 30
     public void testSubtrNegative() {
-        AriphmeticOperations multiply = new AriphmeticOperations();
+        Calculator multiply = new Calculator();
         int result = multiply.multiply(5, 5);
         Assert.assertTrue(30 != result);
         System.out.println("Negative training has been passed '#1: 5*5=30");
